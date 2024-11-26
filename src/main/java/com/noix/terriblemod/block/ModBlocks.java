@@ -13,7 +13,7 @@ public class ModBlocks {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Registries.BLOCK, TerribleMod.MOD_ID);
 
-    public static final RegistryObject<Block> STRANGE_STONE = BLOCKS.register("strange-stone",
+    public static final RegistryObject<Block> STRANGE_STONE = BLOCKS.register("strange_stone",
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
 
 

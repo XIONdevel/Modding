@@ -20,10 +20,10 @@ public class ModItems {
     public static final RegistryObject<Item> SLIPPERS = ITEMS.register("slippers",
             () -> new Item(new Item.Properties().durability(256)));
 
-    public static final RegistryObject<Item> STRANGE_STONE = ITEMS.register("strange-stone",
+    public static final RegistryObject<Item> STRANGE_STONE = ITEMS.register("strange_stone",
             () -> new BlockItem(ModBlocks.STRANGE_STONE.get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> WIERD_MEAT = ITEMS.register("wierd-meat",
+    public static final RegistryObject<Item> WIERD_MEAT = ITEMS.register("wierd_meat",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
             .alwaysEat().nutrition(4).saturationMod(10f).build())));
 

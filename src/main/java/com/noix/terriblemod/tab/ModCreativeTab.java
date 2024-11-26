@@ -19,8 +19,8 @@ public class ModCreativeTab {
 //            .icon(() -> ModItems.SLIPPERS.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 ModItems.getAllItems().forEach(item -> output.accept(item.get()));
-//                output.accept(ModItems.STRANGE_STONE.get());
             }).build());
+
 
     public static void register(IEventBus modEventBus) {
         CREATIVE_MODE_TABS.register(modEventBus);
