@@ -1,0 +1,9 @@
+﻿{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:cooked_beef"
+  },
+  "result": "terriblemod:wierd_meat",
+  "experience": 0.5,
+  "cookingtime": 300
+}
