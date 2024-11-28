@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " WI",
+    "WPW",
+    "WW "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "P": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "terriblemod:slippers",
+    "count": 1
+  }
+}
